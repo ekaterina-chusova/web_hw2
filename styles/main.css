@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Appetite';
+	src: url('../fonts/appetite.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/appetite.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/appetite.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/appetite.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/appetite.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/appetite.svg#appetite') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('../fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+	background-image: url(http://mattlaurence.co.uk/home/wp-content/uploads/2017/03/Competencies_Pattern_Grey_BG.jpg);
+    background-repeat:  no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Appetite', sans-serif;
+	color: rgb(150, 0, 0);
+	text-align: center;
+}
+
+h3 {
+    font-family: 'Appetite', sans-serif;
+    color: rgb(5, 4, 4);
+	text-align: center;
+}
+
+.font_teddy {
+	font-family: 'Teddy Bear';
+	color: rgb(150, 0, 0);
+	text-align: center;
+}
+
+p {
+	font-family: 'Appetite', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+b {
+	color: rgb(150, 0, 0);
+}
+
+a {
+	color: rgb(150, 0, 0);
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-type:disc;
+	font-size: 20px;
+}
+
+ol {
+	font-size: 20px;
+}
+
+.number1 {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.number2 {
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.colour_marker {
+	color: rgb(150, 0, 0);
+}
+
+span {
+	color: black;
+}
